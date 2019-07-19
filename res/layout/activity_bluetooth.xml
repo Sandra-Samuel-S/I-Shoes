@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+ 
+    <ListView
+        android:id="@+id/pairedlist"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    
+    
+    <LinearLayout
+        android:id="@+id/inputpane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+       
+         <Button
+            android:id="@+id/reve"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+       android:textColor="#000000"
+            android:text="Start" />
+    
+          <Button
+            android:id="@+id/can"
+            android:layout_width="match_parent"
+          android:layout_height="50dp"
+       android:background="#FA5882"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="20dp"
+       android:textColor="#FFFF"
+            android:text="Cancel" />
+        
+    </LinearLayout>
+
+</LinearLayout>
